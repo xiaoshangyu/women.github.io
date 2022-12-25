@@ -1,0 +1,302 @@
+*{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.icon{
+    height: 7vh;
+    width: 7vh;
+}
+.justify-content-center{
+    margin-right: 30vh;
+}
+/*navbar*/
+.info_button{
+    width: 150px;
+    color: black;
+    font-size: 20px;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
+    font-weight: 900;
+}
+/* homepage */
+.homepage_background{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imgs/2.jpeg);
+    background-position:center;
+    background-size:cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.homepage_content_attribute{
+    padding-top: 20%;
+    align-items: center;
+}
+.homepage_content{
+    color: white;
+    font-size: 60px;
+}
+.homepage_content_info{
+    color: white;
+    font-size: 28px;
+    margin-top: 7px;
+}
+
+/* idea */
+.page1_content{
+    background-color: black;
+}
+.page1_img{
+    max-width: 100%;
+    height: auto;
+
+}
+.page1_content_title{
+    text-align: center;
+    font-size: 64px;
+    color: #FFCD1C;
+    padding-top: 6%;
+
+}
+.page1_content_title_plugin{
+    color: white;
+    font-size: 55px;
+    color: #FFCD1C;
+    padding-top: 5vh;
+    
+}
+.page1_title_plg{
+    display: inline-block;
+    list-style: none;
+    margin-left: 250px;
+}
+.violence_content{
+    padding-top: 5vh;
+
+    
+}
+.plugin2{
+    display: inline-block;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 35px;
+    margin-left: 85px;
+    vertical-align: middle;
+}
+.women_equality_title{
+    color: red;
+    font-size: 50px;
+    padding-top: 20vh;
+    text-align: center;
+}
+.women_equality_content{
+    color: white;
+    font-size: 32px;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+}
+.women_equality_words{
+    align-items: center;
+    justify-content: center;
+}
+.sdgs5_img{
+    height: 350px;
+    width: 350px;
+
+    justify-content: center;
+    
+}
+.page1_content1{
+    background-color: white;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 10vh;
+}
+.menstruation_text1{
+    color: black;
+    font-size: 50px;
+    padding-bottom: 4vh;
+}
+.menstruation_text2{
+    color: #F46767;
+    font-size: 40px;
+    padding-top: 3vh;
+
+}
+.menstruation_text3{
+    color: #000000C9;
+    font-size: 32px;
+}
+.menstruation_imgs1{
+    width: 100%;
+    height: 100%;
+    border-radius: 368px;
+    margin-top: 10vh;
+}
+.menstruation_imgs2{
+    margin-top: 15vh;
+    width: 100%;
+    height: 100%;
+    border-radius: 360px;
+}
+.menstruation_text4{
+    color: #F46767;
+    font-size: 40px;
+    padding-top: 20vh;
+}
+.menstruation_text5{
+    color: #000000C9;
+    font-size: 32px;
+}
+.menstruation_text6{
+    color: #F46767;
+    font-size: 40px;
+    padding-top: 20vh;
+}
+.menstruation_text7{
+    color: #000000C9;
+    font-size: 32px;
+}
+.menstruation_imgs3{
+    margin-top: 15vh;
+    width: 100%;
+    height: 100%;
+    border-radius: 360px;
+}
+/* about */
+.about_title_imgs{
+    width: 100%;
+    height:50vh;
+    background-image:url(imgs/mountain.jpg);
+    background-position:center;
+    background-size:cover;
+    box-sizing: border-box;
+}
+.about_title_content{
+    font-size: 5vh;
+    padding-top: 30vh;
+    color: white;
+    padding-left: 3%;
+}
+.about_attributes{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+
+}
+.about_content{
+    padding-left: 5vh;
+    padding-right: 5vh;
+
+}
+.about_content1{
+    color: #FFCD1C;
+    font-size: 4vh;
+    padding-top: 10vh;
+
+}
+.about_content2{
+    color: #E3E2E2;
+    font-size: 4vh;
+    padding-top: 10vh;
+
+    text-align: left;
+}
+.about_content3{
+    width: 45vh;
+    height: 45vh;
+    border-radius: 179px;
+    padding-top: 2vh;
+}
+.about_content4{
+    color: #E3E2E2;
+    font-size: 3vh;
+    padding-top: 2vh;
+    text-align: left;
+}
+.neymar{
+    border-radius: 360px;
+    padding-bottom: 5vh;
+}
+/* contact */
+.contactpage_background{
+    width: 100%;
+    height:90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imgs/contact.jpeg);
+    background-position:center;
+    background-size:cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+/*donate*/
+.donate_button{
+    color: black;
+    padding: 10px 5px;
+    background: #FEC02F;
+    border: 0;
+    border-radius: 40px;
+    font-size: 20px;
+}
+.donatepage_background{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imgs/landscape.jpeg);
+    background-position:center;
+    background-size:cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.donatepage_content_info{
+    color: white;
+    font-size: 24px;
+}
+.donatepage_content_info2{
+    color: black;
+    font-size: 24px;
+}
+.donatepage_content_info3{
+    color: black;
+    font-size: 20px;
+}
+.donatepage_content{
+    color: white;
+    font-size: 60px;
+}
+.donatetd_style{
+    padding: 20px 2%;
+    background: white;
+    outline: 0.25rem solid #FEC02F;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+
+
+    }
+/*footer*/
+.footer{
+    background: #303030;
+    height: 130px;
+}
+.footer_words{
+    color: white;
+    font-size: 3vh;
+    margin-left: 10%;
+    text-align: left;
+}
+.footer_icon{
+    color: white;
+    margin-left: 10%;
+}
+.footer_icon2{
+    color: white;
+    margin-left: 10px;
+}
+
